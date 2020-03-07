@@ -1,0 +1,505 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Audiowide|Bangers|Beth+Ellen|Blinker:400,900|Courgette|Lacquer|Lobster|Merriweather|Monoton|Permanent+Marker|Saira+Stencil+One|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Lato|Montserrat|Roboto&display=swap');
+
+body {
+    background-image:url('../img/DesignStudio_Premier_League_Rebrand_2016_02-2000x1125.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    background-position: top;
+  }
+
+
+
+
+.container .navbar-brand{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #081c4f;
+    
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+
+}
+
+.head-image{
+   max-width: 35%;
+   height: 40px;
+
+   
+}
+.first-div
+{
+  background-image: url('../img/searchgif.gif');
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding-left: 30px;
+}
+.nav-item .nav-link{
+    color:white !important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    transition: color 1s ease;
+   
+}
+
+.navbar-nav{
+    justify-content: center !important;
+   
+   
+}
+.nav-link:hover{
+    color:aqua !important;
+}
+.container .navbar-brand mb-0 h1{
+    color: aqua;
+    
+}
+
+
+
+.navbar{
+  background-image:url('../img/amk.png');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+
+    line-height: 20% !important;
+}
+
+
+.footer{
+    background-color: wheat;
+
+}
+
+
+
+
+.row{
+  padding-left: 15%;
+  padding-top: 0.5%;
+}
+
+
+
+.container2{
+  background-color: rgba(255, 255, 255, 0.527);
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.container2 .team{
+  
+    height: 50px;
+    width: 50px;
+}
+
+.team:hover , .team2:hover{
+  transform: scale(1.5);
+}
+
+.container2 .team2{
+    height: 55px;
+    width: 55px;
+    padding: none;
+}
+
+
+
+.navbar{
+   width: 100%;
+}
+
+.search-engine{
+  
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+    padding-left: 75%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  
+}
+
+.search-field{
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius:25px;
+    outline: none;
+}
+.location {
+    opacity: 0.4;
+    width: 250px;
+    height: 27px;
+    
+}
+
+.location:hover{
+  opacity: 1;
+}
+
+.search-btn{
+   background-image:url('../img/searchgif.gif');
+   background-size:100%;
+    height: 27px;
+    width: 90px;
+    border: none;
+    color: white;
+    font-style: oblique;
+    border: hidden;
+    border-radius: 25px;
+    
+
+}
+.search-btn:hover{
+    background-color: purple;
+    cursor: pointer;
+
+}
+
+/* PREMIER LEAGUE SECTION -----------------------------------*/
+
+.container3{
+
+    margin-left: 16%;
+    margin-right: 16%;
+
+}
+.list-group{
+    opacity: 0.9;
+}
+.forum-title{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: none;
+    border-radius:25px;
+    background-color: #fb2456ff;
+}
+#bpl-section-logo{
+    max-width: 45%;
+    height: 40px;
+}
+#bpl-section-logo2{
+    max-width: 45%;
+    height: 30px;
+}
+#bpl-section-logo3{
+    max-width: 65%;
+    height: 42px;
+    padding-left: 1.5%;
+}
+.categories{
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-bottom: 1%;
+    border-bottom: 2px grey solid;
+}
+.category-title{
+    padding-top: 1px;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .location {
+
+        width: 170px;
+        height: 27px;
+        
+    }
+
+    .search-engine{
+        zoom: 1;
+        white-space: nowrap;
+        word-wrap: normal;
+        padding: 0 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 700px){
+    .location {
+
+        width: 170px;
+        height: 27px;
+        
+    }
+
+    .search-engine{
+        zoom: 1;
+        white-space: nowrap;
+        word-wrap: normal;
+        padding: 0 100px;
+    }
+}
+
+.flex-center{
+    padding-top: 2%;
+    padding-left: 37.2%;
+}
+.container4{
+    margin-top: 5%;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.411);
+    color: white;
+}
+.fb-ic , .tw-ic , .ins-ic, .gplus-ic , .li-ic , .pin-ic {
+    color: white;
+}
+.fb-ic:hover , .tw-ic:hover , .ins-ic:hover, .gplus-ic:hover , .li-ic:hover , .pin-ic:hover
+{
+    color: aqua;
+}
+
+/*------------------------------register form----------------------------*/
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.form-div{
+    margin-top:1.5%;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.603) !important;
+}
+
+/*---------------------------register form validation---------------------------------*/
+
+#username-error, #name-error,#email-error,#password-error,#password-error2{
+    color: red;
+    padding: 1px;
+    display: none;
+
+}
+
+
+/*----------------------------sign in--------------------------------------------*/
+
+#login-nav input { margin-bottom: 15px;
+}
+.sign-li{
+    margin-right: 15%;
+    margin-left: 5%;
+}
+.dropdown-menu{
+    padding-top: 150px;
+    border: 3px #081c4f solid;
+}
+.sign-title{
+    margin-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.dropdown{
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    
+}
+
+/*--------------------------------profile page section ----------------------*/
+
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 50%;
+    height: 50%;
+    margin-right: 20%;
+}
+
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+
+/* -----------------------------------edit page section ---------------------*/
+
+
+.main-div{
+    margin-top: 3%;
+    background-color: white;
+    max-width: 80%;
+    margin-left: 10%;
+    border-radius:25px;
+    padding-top: 2%;
+}
+
+.submitButton2{
+    max-width: 20%;
+    
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #pp-edit{
+      max-width: 25%;
+      max-height: 25%;
+  }
+
+  .list-group2{
+      margin-top: 5%;
+      margin-right: 3%;
+      margin-left: 3%;
+  }
+.showtime{
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+
+
+
+
